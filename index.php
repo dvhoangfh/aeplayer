@@ -39,9 +39,9 @@ $data = [
 <script src="//cdn.jsdelivr.net/npm/ecocdn/sdkv2/hls.min.js"></script>
 <script>
     jwplayer.key = "uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=";
-    // const link = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
+    const link = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
     const data = JSON.parse('<?php echo json_encode($data) ?>');
-    const {link, user, isPremium, enableP2p, liveTime, baseUrl} = data
+    const { user, isPremium, enableP2p, liveTime, baseUrl} = data
     const p2pConfig = {
         logLevel: 'debug',
         live: true,
