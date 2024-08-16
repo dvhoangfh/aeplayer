@@ -37,6 +37,13 @@ $data = [
 <script src="//ssl.p.jwpcdn.com/player/v/8.30.1/jwplayer.js"></script>
 <script src="//cdn.jsdelivr.net/npm/ecocdn/sdkv2/jwplayer.hlsjs.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/ecocdn/sdkv2/hls.min.js"></script>
+<script
+        disable-devtool-auto
+        md5="b6bb43df4525b928a105fb5741bddbea"
+        tk-name="bb"
+        src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"
+>
+</script>
 <script>
     jwplayer.key = "uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=";
     // const link = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
