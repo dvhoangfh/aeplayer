@@ -45,6 +45,10 @@ $data = [
 >
 </script>
 <script>
+    if (window.self === window.top) {
+        alert('Not embed');
+        return false;
+    }
     jwplayer.key = "uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=";
     // const link = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
     const data = JSON.parse('<?php echo json_encode($data) ?>');
