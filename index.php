@@ -45,7 +45,8 @@ $data = [
 <!--</script>-->
 <script>
     if (window.self === window.top) {
-        return false;
+        console.log('window.self', window.self)
+        console.log('window.top', window.top)
     }
     jwplayer.key = "uoW6qHjBL3KNudxKVnwa3rt5LlTakbko9e6aQ6VUyKQ=";
     // const link = 'https://content.jwplatform.com/manifests/yp34SRmf.m3u8';
